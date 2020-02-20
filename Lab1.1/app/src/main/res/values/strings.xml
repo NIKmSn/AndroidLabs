@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab1.1</string>
+    <string name="launchlogo">launchLogo</string>
+    <string name="item_pic">itemPicture</string>
+    <string name="btn100">100</string>
+    <string name="btn1K">1 000</string>
+    <string name="btn100K">100 000</string>
+</resources>
