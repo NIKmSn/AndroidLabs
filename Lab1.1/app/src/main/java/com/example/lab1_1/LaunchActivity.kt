@@ -20,7 +20,6 @@ class LaunchActivity : AppCompatActivity() {
                 } catch (e: Exception) {
                     e.printStackTrace()
                 }
-
             }
         }
         background.start()
