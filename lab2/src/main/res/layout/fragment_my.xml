@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFragment">
+
+    <com.example.lab2.MyImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background" />
+    
+    <TextView
+        android:id="@+id/fragmentTextView"
+        android:layout_width="264dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:text="Text"
+        android:textAlignment="center" />
+</FrameLayout>
