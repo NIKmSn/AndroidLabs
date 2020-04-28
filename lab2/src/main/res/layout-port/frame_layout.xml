@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/tech_name"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tech_helptext"
+        android:layout_width="255dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <com.example.lab2.MyImageView
+        android:id="@+id/tech_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/ic_launcher_background">
+    </com.example.lab2.MyImageView>
+</FrameLayout>
