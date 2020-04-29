@@ -1,2 +1,2 @@
-include ':lab1', ':lab2'
+include ':lab1', ':lab2', ':lab3', ':lab3_2'
 rootProject.name='AndroidLabs'
