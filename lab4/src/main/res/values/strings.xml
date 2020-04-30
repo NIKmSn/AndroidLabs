@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="appwidget_text">WIDGET</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="enter_date">Выберите дату: </string>
+    <string name="time_to">До наступления %1$s осталось: </string>
+</resources>
